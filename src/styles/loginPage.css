@@ -1,0 +1,11 @@
+.links {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.link1 {
+  padding-left: 10px;
+}
+.link2 {
+  padding-right: 20px;
+}
