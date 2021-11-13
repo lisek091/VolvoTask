@@ -1,0 +1,6 @@
+{
+    "mongoURI":"mongodb+srv://volvo:volvo123@testcluster.tneve.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    "mongoDB":"todo",
+    "jwtSecret":"sekret"
+
+}
