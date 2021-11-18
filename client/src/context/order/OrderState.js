@@ -54,7 +54,7 @@ const OrderState = props => {
         orders: state.orders,
       }}
     >
-      {props.childern}
+      {props.children}
     </OrderContext.Provider>
   );
 };
