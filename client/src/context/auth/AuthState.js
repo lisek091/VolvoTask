@@ -14,11 +14,6 @@ import {
   CLEAR_ERRORS,
 } from '../types';
 
-export const useAuth = () => {
-  const { state, dispatch } = useContext(AuthContext);
-  return [state, dispatch];
-};
-
 const AuthState = props => {
   const initialState = {
     token: localStorage.getItem('token'),
@@ -29,6 +24,9 @@ const AuthState = props => {
   };
 
   const [state, dispatch] = useReducer(authReducer, initialState);
+  const useAuth = () => {
+    return [state, dispatch];
+  };
 
   // Load User
   const loadUser = async () => {

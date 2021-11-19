@@ -22,7 +22,7 @@ const App = () => {
               <div className="container">
                 <Alerts />
                 <Routes>
-                  <PrivateRoute path="/" element={<Home />}></PrivateRoute>
+                  <Route path="/" element={<PrivateRoute component={Home} />} />
                   <Route path="/about" element={<About />} />
                   <Route path="/register" element={<Register />} />
                   <Route path="/login" element={<Login />} />
