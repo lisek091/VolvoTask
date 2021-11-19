@@ -1,7 +1,7 @@
 export const GET_ORDER = 'GET_ORDER';
 export const ADD_ORDER = 'ADD_ORDER';
 export const DELETE_ORDER = 'DELETE_ORDER';
-export const SET_ORDER = 'SET_CURRENT';
+export const SET_CURRENT = 'SET_CURRENT';
 export const CLEAR_CURRENT = 'CLEAR_CURRENT';
 export const UPDATE_ORDER = 'UPDATE_ORDER';
 export const FILTER_ORDER = 'FILTER_ORDER';
